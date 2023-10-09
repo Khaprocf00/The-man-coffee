@@ -1,0 +1,114 @@
+:root{
+    --main-color : #0d6172;
+    --navbar-height : 125px;
+    --header-height: 45px;
+    --black-color: #000;
+    --white-color:#fff;
+}
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+    
+} 
+ul{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+#bg-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: 500px;
+}
+h1{
+    font-size: 30px;
+    padding: 20px 0;
+}
+p{
+    font-size: 20px;
+    margin: 10px 0 ;
+}
+input{
+    width: 300px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+button{
+    font-size: 1.5rem;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    color: var(--white-color);
+    background-color: var(--main-color);
+}
+.thongbao{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.admin-content-user_add{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.admin-content-user_add p{
+    font-size: 20px;
+    margin-top: 12px;
+    text-align: center;
+   
+}
+.admin-content-user_add  input{
+    margin-top: 5px;
+    width: 200px;
+    font-size: 15px;
+    padding: 4px 8px;
+}
+
+.admin-content-user_add .button{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 8px 12px;
+    margin: 20px auto;
+    background-color: #87431d;
+    border: none;
+    color: #fff;
+    width: 90px;
+    border: 1px solid #87431d;
+
+}
+.admin-content-user_add  .bg-input{
+    display: flex;
+    justify-content: center;
+}
+.admin-content-user_add .button:hover{
+    cursor: pointer;
+    background-color: inherit;
+    color: #87431d;
+}
+
+.admin-content-user_add .form{
+    margin-top: 40px;
+    display: flex;
+    border: 1px solid #000;
+    padding: 30px 57px;
+    width: 320px;
+}
